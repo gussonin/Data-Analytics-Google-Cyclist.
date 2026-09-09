@@ -51,7 +51,11 @@ El análisis descriptivo sobre el conjunto de datos de Cyclistic abarcó un tota
 
 En el plano temporal y estacional, la dimensión de los datos a través de las variables `started_at` y `ended_at` revela una marcada estacionalidad en ambos segmentos: los meses veraniegos concentran el mayor volumen de uso operativo, alcanzando picos significativos de demanda, mientras que los meses invernales experimentan una contracción drástica que reduce la actividad base de forma simétrica. Asimismo, al contrastar los patrones de uso, se observa un comportamiento estructural diferenciado: los usuarios ocasionales realizan trayectos de mayor duración (vinculados a dinámicas recreativas o de fines de semana), en contraste con los socios (*member*), cuyos tiempos promedio son más cortos y estables, reflejando un uso utilitario y de rutinas cotidianas entre días hábiles.
 
+** Estadisticos Descriptivos:** Los estadísticos descriptivos reflejan diferencias marcadas en el comportamiento de movilidad entre los dos perfiles de usuarios de la red de bicicletas:
 
+* **Volumen Operativo:** Los miembros (`member`) acumulan una cantidad significativamente mayor de viajes totales (7.106.954) en comparación con los usuarios casuales (`casual`), que registran 3.998.976 trayectos, lo que demuestra que la base abonada sostiene el grueso de la operativa diaria del sistema.
+* **Duración y Propósito del Viaje:** Los usuarios casuales realizan trayectos notablemente más largos, con un promedio de 22.6 minutos y una mediana de 11.41 minutos, frente a los 12.3 minutos de promedio y 8.58 minutos de mediana de los miembros. Esto sugiere que el perfil casual utiliza el servicio principalmente con fines recreativos, turísticos o de esparcimiento, mientras que el socio o miembro prioriza traslados utilitarios, directos y sistemáticos (como ir al trabajo o estudio).
+* **Variabilidad y Dispersión:** Tanto la desviación estándar como la varianza son sustancialmente más altas en los usuarios casuales (desviación de 81.4 minutos) que en los miembros (31.3 minutos). Esta dispersión indica que los trayectos de los casuales son mucho más heterogéneos y fluctúan fuertemente entre un uso rápido y paseos muy extendidos, mientras que los miembros operan con patrones de tiempo mucho más estables y homogéneos en el día a día.
 ---
 
 ## Recomendaciones de Marketing
