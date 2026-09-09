@@ -8,6 +8,7 @@ Este repositorio contiene la resolución de un caso práctico y ficticio desarro
 * **`tidyverse` (`dplyr`, `tidyr`):** Para la limpieza, transformación y manipulación estructurada de dataframes.
 * **`ggplot2`:** Para el desarrollo de visualizaciones estadísticas de alta calidad.
 * **`lubridate`:** Para el procesamiento y desglose preciso de variables temporales (fechas, horas, días de la semana).
+* Para la elaboración de las visualizaciones gráficas y dashboard se utilizó R y Power BI.
 
 ## Hipótesis de Investigación
 
@@ -43,7 +44,12 @@ El contraste térmico y lumínico de la ciudad altera de forma drástica el volu
 * **Desplazamiento de los picos horarios:** En verano, el pico matutino se adelanta y concentra con mayor intensidad entre las **07:00 y las 08:30 horas**, abarcando el **31%** del movimiento diario, aprovechando la luz solar temprana. En invierno, este pico se retrae y se achata, desplazándose hacia la franja de las **08:00 a las 09:30 horas** y concentrando solo el **21%** de los viajes.
 * **Duración y velocidad del trayecto:** En invierno, la duración media de los viajes aumenta a **19.2 minutos** por trayecto (un **22%** más que en verano, donde la media se sitúa en **15.7 minutos**). Este incremento no responde a un mayor recorrido espacial, sino a una reducción en la velocidad promedio de pedaleo debido al uso de abrigos pesados, condiciones de calzada húmeda y menor confort térmico.
 * **Tasa de abandono nocturno:** Al caer el sol en invierno (aproximadamente a las 18:00 horas), los viajes se desploman un **68%** en la franja nocturna (18:00 a 22:00 horas) en comparación con el verano, época en la que las altas temperaturas nocturnas y las horas de luz extendidas propician un uso sostenido de la bicicleta hasta avanzada la tarde-noche.
+El análisis descriptivo sobre el conjunto de datos de Cyclistic abarcó un total de **5.552.994 observaciones** (`ride_id`) correspondientes al período evaluado, permitiendo contrastar el comportamiento conductual entre los dos tipos de usuarios de la plataforma. Del volumen total de trayectos registrados, la distribución porcentual refleja la estructura de participación entre los abonados anuales y los usuarios ocasionales (*casual*).
 
+
+El análisis descriptivo sobre el conjunto de datos de Cyclistic abarcó un total de **5.552.994 observaciones** (`ride_id`) correspondientes al período evaluado, permitiendo contrastar el comportamiento conductual entre los dos tipos de usuarios de la plataforma. Del volumen total de trayectos registrados, la distribución porcentual refleja la estructura de participación entre los abonados anuales y los usuarios ocasionales (*casual*).
+
+En el plano temporal y estacional, la dimensión de los datos a través de las variables `started_at` y `ended_at` revela una marcada estacionalidad en ambos segmentos: los meses veraniegos concentran el mayor volumen de uso operativo, alcanzando picos significativos de demanda, mientras que los meses invernales experimentan una contracción drástica que reduce la actividad base de forma simétrica. Asimismo, al contrastar los patrones de uso, se observa un comportamiento estructural diferenciado: los usuarios ocasionales realizan trayectos de mayor duración (vinculados a dinámicas recreativas o de fines de semana), en contraste con los socios (*member*), cuyos tiempos promedio son más cortos y estables, reflejando un uso utilitario y de rutinas cotidianas entre días hábiles.
 ---
 
 ## Recomendaciones de Marketing
