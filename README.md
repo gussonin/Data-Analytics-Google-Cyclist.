@@ -50,6 +50,8 @@ El análisis descriptivo sobre el conjunto de datos de Cyclistic abarcó un tota
 El análisis descriptivo sobre el conjunto de datos de Cyclistic abarcó un total de **5.552.994 observaciones** (`ride_id`) correspondientes al período evaluado, permitiendo contrastar el comportamiento conductual entre los dos tipos de usuarios de la plataforma. Del volumen total de trayectos registrados, la distribución porcentual refleja la estructura de participación entre los abonados anuales y los usuarios ocasionales (*casual*).
 
 En el plano temporal y estacional, la dimensión de los datos a través de las variables `started_at` y `ended_at` revela una marcada estacionalidad en ambos segmentos: los meses veraniegos concentran el mayor volumen de uso operativo, alcanzando picos significativos de demanda, mientras que los meses invernales experimentan una contracción drástica que reduce la actividad base de forma simétrica. Asimismo, al contrastar los patrones de uso, se observa un comportamiento estructural diferenciado: los usuarios ocasionales realizan trayectos de mayor duración (vinculados a dinámicas recreativas o de fines de semana), en contraste con los socios (*member*), cuyos tiempos promedio son más cortos y estables, reflejando un uso utilitario y de rutinas cotidianas entre días hábiles.
+
+
 ---
 
 ## Recomendaciones de Marketing
